@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+* {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+body {
+    background-color: #282525;
+}
+
+.logo {
+    text-decoration: none;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    color: red;
+    position: relative;
+    left: 39%;
+}
+
+.logo span {
+    color: white;
+}
+
+.log {
+    text-decoration: none;
+    font-size: 40px;
+    position: relative;
+    top: 65px;
+    font-weight: 600;
+    color: white;
+}
+
+.min img {
+    position: relative;
+    left: 22%;
+    bottom: -67px;
+}
+
+.colr {
+    position: absolute;
+    left: 27%;
+    top: 496px;
+    display: flex;
+}
+
+#A {
+    color: red;
+    background-color: red;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#B {
+    color: #CB9707;
+    background-color: #CB9707;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+#C {
+    color: #7B796D;
+    background-color: #7B796D;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+#D {
+    color: #070708;
+    background-color: #070708;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+#E {
+    color: #090D15;
+    background-color: #090D15;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+#F {
+    color: #352F1F;
+    background-color: #352F1F;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+#G {
+    color: #2B3838;
+    background-color: #2B3838;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+#H {
+    color: #C5C5C3;
+    background-color: #C5C5C3;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+#I {
+    color: #190502;
+    background-color: #190502;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: .5s;
+}
+
+#A:hover, #B:hover, #C:hover, #D:hover, #E:hover, #F:hover, #G:hover, #H:hover, #I:hover {
+    transform: scale(1.1);
+}
+
+.hidng {
+    display: none;
+}
+
+.animate-charcter{
+    text-transform: uppercase;
+    background-image: linear-gradient( -225deg, #4d4d4d 0%, #ff0000 67%, #fff 100% );
+    background-size: auto auto;
+    background-clip: border-box;
+    background-size: 200% auto;
+    color: #fff;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: textclip 2s linear infinite;
+    font-size: 20px;
+    font-weight: 900;
+    position: absolute;
+    left: 41px;
+}
+
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}
+
+@media (max-width:1024px) {
+    .logo {
+        position: relative;
+        left: 146px;
+    }
+    .min img {
+        position: relative;
+        left: -3%;
+        bottom: -67px;
+        width: 500px;
+    }
+
+    .colr {
+        position: absolute;
+        left: 7%;
+        top: 468px;
+    }
+    #A,#B,#C,#D,#E,#F,#G,#H,#I {
+        width: 20px;
+        height: 20px;
+    }
+    .animate-charcter{
+        top: -40px;
+        left: 20px;
+    }
+}
